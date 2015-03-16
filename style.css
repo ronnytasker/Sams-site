@@ -1,0 +1,162 @@
+
+#header
+{
+  background: #2F343B;
+  background-size:cover;
+  position:relative;
+  margin:0;
+ }
+
+    
+h1 
+{
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  padding-top: 140px;
+  padding-bottom:100px;
+  color: #FFFEEC;
+} 
+
+p 
+{
+  font-size:15px;
+  color:#FFFEEC;
+}
+
+
+img 
+{
+  margin: 40px 0px 0px 0px;
+  border: 7px #CFE6FF;
+  border-radius: 5px;
+}
+
+ul 
+{
+  background: rgba(255,254,236,0.6);
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin:0;
+}
+    
+li 
+{
+  display: inline;
+  padding: 0px 40px 0px 0px;
+  
+  margin:0;
+  font-family: 'Lato', sans-serif;
+  font-weight:100
+  font-size:10px;
+}
+    
+a
+{ 
+  color: #403F3B
+}
+
+#topbar {
+  position:center;
+  bottom:0%;
+  width:40%;
+  float:center;
+  text-align:center;
+  margin:0 auto;
+  border-radius:5px;
+}
+
+body {
+  background: #403F3B;
+}
+
+aside{
+  float:right;
+  width:30%;
+}
+section{
+  float: left;
+  width:60%;
+  color:rgba(210,255,250,0.5);
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  border-radius:10px;
+  height:300px;
+  margin-left: 2%
+
+}
+.social {
+  position: absolute;
+  width: 100%;
+  top:300%;
+  bottom:0;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #FFFEEC;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 70px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: FFFEEC;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.youtube {
+  background-color: #BFBEB1;
+  color: white;
+}
+
+.twitter {
+  background-color: #BFBEB1;
+  color: white;
+}
+
+.facebook {
+  background-color: #BFBEB1;
+  color: white;
+}
+
+
+
+@media (max-width: 500px)
+{
+  h1 
+  {
+    font-size: 12px;
+  }
+}
+
+
+
+    
