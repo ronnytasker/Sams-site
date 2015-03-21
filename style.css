@@ -7,7 +7,7 @@
 #side
 {
   margin: 20px 0px 0px 0px;
-  border: 3px solid #C77966;
+  border: 5px solid #7E827A;
   border-radius: 14px;
 }
 
@@ -27,7 +27,7 @@ li
   margin:0;
   font-family: 'Oswald', sans-serif;
   font-weight:100
-  font-size:25px;
+  font-size:29px;
 }
     
 a
@@ -38,6 +38,12 @@ a
 #Bio {
   width:85%;
   margin-left: 10%;
+  font-size: 25px
+}
+#contact  {
+  margin-left:10%;
+  font-size: 20px;
+  text-align:left;
 }
 
 #topbar {
@@ -63,7 +69,6 @@ section{
   text-align:center;
   width:60%;
   color:#FFFFFF;
-  font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   font-weight:300;
   margin-left: 2%;
@@ -72,7 +77,7 @@ section{
 .social {
   position: absolute;
   width: 100%;
-  top:295%;
+  top:280%;
   padding-bottom: 40px;
   text-align: center;
   transform: translateY(-50%);
@@ -109,7 +114,7 @@ section{
 
 .social .link:hover {
   padding: 20px;
-  color: #C77966;
+  color: #660000;
   margin-left: -5px;
   transform: translateX(10px) rotate(360deg);
 }
@@ -134,15 +139,40 @@ text-align:left
 
 }
 
-
-@media (max-width: 500px)
-{
-  h1 
+@media (max-width: 1300px)
   {
-    font-size: 12px;
+    li{
+    padding: 0px 10px 0px 0px;
+    margin:0;
+  }
+}
+@media (max-width: 1000px)
+  {
+    li{
+    padding: 0;
+    margin:0;
   }
 }
 
+
+@media (max-width: 800px)
+{
+ #Bio 
+  {
+    font-size: 16px;
+  }
+  #contact{
+    font-size:12px;
+  }
+  li{
+    display:block;
+  }
+  #side{
+    width:150px;
+    height: auto;
+
+  }
+}
 
 
     
