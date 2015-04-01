@@ -40,6 +40,8 @@ a
   margin-left: 10%;
   font-size: 25px
 }
+
+
 #contact  {
   margin-left:10%;
   font-size: 20px;
@@ -165,7 +167,7 @@ text-align:left
     display:block;
   }
   #side{
-    width:150px;
+    width:100px;
     height: auto;
 
   }

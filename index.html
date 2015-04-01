@@ -7,12 +7,20 @@
     <link href="fa/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div id="header">
       <img src="burg.jpg"  id="headerimg" style="height:auto; width:100%;"> 
 
        
       <ul id="topbar">
-        <li><a href="index.html#Bio">BIO</a></li>
+        <li><a href="index.html">BIO</a></li>
         <li><a href="music.html">MUSIC</a></li>
         <li><a href="tourdates.html">TOUR DATES</a></li>
         <li><a href="socialmedia.html">SOCIAL MEDIA</a></li>
@@ -25,7 +33,13 @@
       Sam Tasker is a singer, songwriter and guitarist. Hailing from the wilds of Norfolk, he plays a distinctive blend of high-energy folk rock, punctuated with fiery, incisive lyricism. Away from time spent on his music, Sam enjoys fishing, swimming and writing about himself in the 3rd person.
     </div>
 
-    <br /
+    <br />
+    <div id="indexphoto">
+    <img src="Indexpic.jpg" style="height:auto; width:85%; margin-left:5%"></a>
+     </div>
+    <br/ >
+
+    <div class="fb-page" data-href="https://www.facebook.com/samtaskermusic" data-width="500" data-height="300" data-hide-cover="true" data-show-facepile="true" data-show-posts="true"></div>
 
   <div id="contact">
    Contact Sam via Facebook or email: samtaskermusic@gmail.com
@@ -36,17 +50,7 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    </div>
-    <div id="rosie">
-      Made by Rosie Tasker
-    </div>
-    <br />
+
 
     </section>
 
@@ -59,6 +63,10 @@
       <img src="gate.jpg"  id="side">
     <br />
       <img src="door.jpg" id="side">
+      <div id="rosie">
+      Made by Rosie Tasker
+    </div>
+
     </aside>
     
 </body>
